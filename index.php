@@ -22,11 +22,13 @@ if (!isset($_SESSION['user'])) {
         <p>Masuk sebagai <?php echo htmlspecialchars($_SESSION['user']['username']); ?>
            (<?php echo htmlspecialchars($_SESSION['user']['role']); ?>)</p>
 
+        <?php if ($_SESSION['user']['role'] === 'admin'): ?>
+            <p><a href="admin.php">Buka menu panel admin</a></p>
+        <?php endif; ?>
+
         <ul>
-            <li>Data siswa (belum dibuat)</li>
-            <li>Dokumen arsip (belum dibuat)</li>
-            <li>Backup dan pemulihan (belum dibuat)</li>
-            <li>Log aktivitas (belum dibuat)</li>
+            <li>Data siswa, kelas, pengguna, dan dokumen arsip dikelola melalui panel admin.</li>
+            <li>Backup, pemulihan, dan log aktivitas belum tersedia pada panel ini.</li>
         </ul>
     </div>
 </body>
