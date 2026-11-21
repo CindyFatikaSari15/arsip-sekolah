@@ -12,6 +12,7 @@ if (isset($_SESSION['user'])) {
 <html>
 <head>
     <title>Login | Arsip Dokumen Sekolah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -74,6 +75,6 @@ if (isset($_POST['username'])) {
             </tr>
         </table>
     </form>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
