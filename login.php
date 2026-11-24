@@ -69,7 +69,7 @@ if (isset($_POST['username'])) {
             <tr>
                 <td></td>
                 <td>
-                    <button type="submit">Login</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
                     <a href="daftar.php">Daftar</a>
                 </td>
             </tr>
