@@ -32,3 +32,9 @@ button {
 }
 button:hover { background: #0a5f67; }
 a { color: #0a5f67; }
+
+.kotak button.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
