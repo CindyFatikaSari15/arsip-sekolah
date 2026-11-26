@@ -1,6 +1,6 @@
 <?php
 // Koneksi ke database (host, user, password, nama database)
-$koneksi = mysqli_connect("localhost", "root", "", "arsip_sekolah") or die('database tidak terhubung');
+$koneksi = mysqli_connect("localhost", "root", "", "db_arsip_siswa") or die('database tidak terhubung');
 mysqli_set_charset($koneksi, 'utf8mb4');
 
 // Catat aktivitas ke tabel log_aktivitas
